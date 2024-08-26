@@ -1,4 +1,23 @@
-# Boilerplate: Fullstack with Sass
+# WWE 2k Universe Mode Tracker
+I'm building this app as it is something I've longed after for many years when playing the WWE 2k games. While there is a reasonably robust Universe Mode - essentially a fantasy booking mode for WWE - there is no way to keep track of wins, losses, tournmanets, etc etc. So let's fix that!
+
+## MVP Features
+- Superstar Draft (Raw, Smackdown, NXT)
+- Weekly / Monthly Planner
+- Win / Loss / Draw Statistics
+
+## Stretch
+#### Draft Features
+- Add custom superstars to draft pool
+- Redraft particular superstars after the draft while leaving others as they are
+#### Planner
+- Customisable calendar events
+- Change match-card size
+#### Other
+- Championship history
+- Rivaly tracking
+- Edit superstar info
+<!-- # Boilerplate: Fullstack with Sass
 
 ## Setup
 
@@ -32,4 +51,4 @@ npm run dev # to start the dev server
 You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
 
 ---
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)
+[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack) -->
