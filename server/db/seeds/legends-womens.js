@@ -1,9 +1,9 @@
 export async function seed(knex) {
   // Deletes ALL existing entries
-  await knex('legends-womens').del()
+  await knex('legends_womens').del()
 
   // Inserts seed entries
-  await knex('legends-womens').insert([
+  await knex('legends_womens').insert([
     {
       name: 'Beth Phoenix',
       alignment: 'Face',

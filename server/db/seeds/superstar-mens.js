@@ -1,9 +1,9 @@
 export async function seed(knex) {
   // Deletes ALL existing entries
-  await knex('superstar-mens').del()
+  await knex('superstar_mens').del()
 
   // Inserts seed entries
-  await knex('superstar-mens').insert([
+  await knex('superstar_mens').insert([
     {
       name: 'AJ Hawk',
       alignment: 'Face',

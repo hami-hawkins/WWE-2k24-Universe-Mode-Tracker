@@ -1,9 +1,9 @@
 export async function seed(knex) {
   // Deletes ALL existing entries
-  await knex('legends').del()
+  await knex('legends_mens').del()
 
   // Inserts seed entries
-  await knex('legends').insert([
+  await knex('legends_mens').insert([
     {
       name: 'Andre The Giant',
       alignment: 'Heel',
