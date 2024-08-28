@@ -3,13 +3,15 @@
  * @returns { Promise<void> }
  */
 export function up(knex) {
-  return knex.schema.createTable('legends_mens', (table) => {
+  return knex.schema.createTable('wrestlers', (table) => {
     table.integer('id').primary()
     table.string('name')
+    table.string('gender')
     table.string('alignment')
     table.string('fightingStyle')
     table.string('faction')
     table.boolean('dlc')
+    table.boolean('isLegend')
   })
 }
 
@@ -18,5 +20,5 @@ export function up(knex) {
  * @returns { Promise<void> }
  */
 export function down(knex) {
-  return knex.schema.dropTable('legends_mens')
+  return knex.schema.dropTable('wrestlers')
 }
