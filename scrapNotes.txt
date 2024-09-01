@@ -1,0 +1,25 @@
+/**
+ * @param { import("knex").Knex } knex
+ * @returns { Promise<void> }
+ */
+export function up(knex) {
+  return knex.schema.createTable('wrestlers', (table) => {
+    table.integer('id').primary()
+    table.string('name')
+    table.string('brand')
+    table.string('gender')
+    table.string('alignment')
+    table.string('fighting_style')
+    table.string('faction')
+    table.boolean('dlc')
+    table.boolean('is_legend')
+  })
+}
+
+/**
+ * @param { import("knex").Knex } knex
+ * @returns { Promise<void> }
+ */
+export function down(knex) {
+  return knex.schema.dropTable('wrestlers')
+}
