@@ -3,20 +3,20 @@ I'm building this app as it is something I've longed after for many years when p
 
 ## MVP Features
 - Superstar Draft (Raw, Smackdown, NXT)
+- Add custom superstars to draft pool
 - Weekly / Monthly Planner
-- Win / Loss / Draw Statistics
+- Edit superstar info
 
 ## Stretch
 #### Draft Features
-- Add custom superstars to draft pool
 - Redraft particular superstars after the draft while leaving others as they are
 #### Planner
 - Customisable calendar events
 - Change match-card size
 #### Other
+- Win / Loss / Draw Statistics
 - Championship history
 - Rivaly tracking
-- Edit superstar info
 <!-- # Boilerplate: Fullstack with Sass
 
 ## Setup
