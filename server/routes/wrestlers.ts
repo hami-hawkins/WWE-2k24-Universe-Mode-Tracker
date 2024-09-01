@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
   const id = Number(req.params.id)
   try {
     const wrestler = await db.getWrestlerById(id)
-    res.json(wrestler)
+    res.json(wrestler).status(200)
   } catch (error) {
     console.error('Could not find wrestler: ', error)
     res.status(500)
@@ -48,7 +48,7 @@ router.delete('/:id', async (req, res) => {
   const id = Number(req.params.id)
   try {
     await db.deleteWrestler(id)
-    res.status(201)
+    res.status(204)
   } catch (error) {
     console.error('Failed to delete wrestler: ', error)
     res.status(500)
