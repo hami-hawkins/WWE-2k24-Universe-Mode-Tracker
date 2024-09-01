@@ -6,12 +6,13 @@ export function up(knex) {
   return knex.schema.createTable('wrestlers', (table) => {
     table.integer('id').primary()
     table.string('name')
+    table.string('brand')
     table.string('gender')
     table.string('alignment')
-    table.string('fightingStyle')
+    table.string('fighting_style')
     table.string('faction')
     table.boolean('dlc')
-    table.boolean('isLegend')
+    table.boolean('is_legend')
   })
 }
 

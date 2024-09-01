@@ -8,6 +8,7 @@ export async function seed(knex) {
   await knex('wrestlers').insert([
     {
       name: 'AJ Hawk',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -17,6 +18,7 @@ export async function seed(knex) {
     },
     {
       name: 'AJ Styles',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -26,6 +28,7 @@ export async function seed(knex) {
     },
     {
       name: 'Akira Tozawa',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -35,6 +38,7 @@ export async function seed(knex) {
     },
     {
       name: 'Alba Fyre',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -44,6 +48,7 @@ export async function seed(knex) {
     },
     {
       name: 'Alexa Bliss',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -53,6 +58,7 @@ export async function seed(knex) {
     },
     {
       name: 'Andre Chase',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -62,6 +68,7 @@ export async function seed(knex) {
     },
     {
       name: 'Andre The Giant',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -71,6 +78,7 @@ export async function seed(knex) {
     },
     {
       name: 'Angel Garza',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -80,6 +88,7 @@ export async function seed(knex) {
     },
     {
       name: 'Angelo Dawkins',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -89,6 +98,7 @@ export async function seed(knex) {
     },
     {
       name: 'Apollo Crews',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -98,6 +108,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ashante Thee Adonis',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -107,6 +118,7 @@ export async function seed(knex) {
     },
     {
       name: 'Asuka',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -116,6 +128,7 @@ export async function seed(knex) {
     },
     {
       name: 'Austin Theory',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -125,6 +138,7 @@ export async function seed(knex) {
     },
     {
       name: 'Axiom',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -134,6 +148,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bad Bunny',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -143,6 +158,7 @@ export async function seed(knex) {
     },
     {
       name: 'Baron Corbin',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -152,6 +168,7 @@ export async function seed(knex) {
     },
     {
       name: 'Batista',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -161,6 +178,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bayley',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -170,6 +188,7 @@ export async function seed(knex) {
     },
     {
       name: 'Becky Lynch',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -179,6 +198,7 @@ export async function seed(knex) {
     },
     {
       name: 'Beth Phoenix',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -188,6 +208,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bianca Belair',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -197,6 +218,7 @@ export async function seed(knex) {
     },
     {
       name: 'Big Boss Man',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -206,6 +228,7 @@ export async function seed(knex) {
     },
     {
       name: 'Big E',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -215,6 +238,7 @@ export async function seed(knex) {
     },
     {
       name: 'Blair Davenport',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -224,6 +248,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bobby Lashley',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -233,6 +258,7 @@ export async function seed(knex) {
     },
     {
       name: 'Boogeyman',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -242,6 +268,7 @@ export async function seed(knex) {
     },
     {
       name: 'Booker T',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -251,6 +278,7 @@ export async function seed(knex) {
     },
     {
       name: 'Boston Connor',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -260,6 +288,7 @@ export async function seed(knex) {
     },
     {
       name: 'Braun Strowman',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -269,6 +298,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bray Wyatt',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -278,6 +308,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bret Hart',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -287,6 +318,7 @@ export async function seed(knex) {
     },
     {
       name: 'British Bulldog',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -296,6 +328,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bron Breakker',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -305,6 +338,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bronson Reed',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -314,6 +348,7 @@ export async function seed(knex) {
     },
     {
       name: 'Brooks Jensen',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -323,6 +358,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bruno Sammartino',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -332,6 +368,7 @@ export async function seed(knex) {
     },
     {
       name: 'Brutus Creed',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -341,6 +378,7 @@ export async function seed(knex) {
     },
     {
       name: 'Bubba Ray Dudley',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -350,6 +388,7 @@ export async function seed(knex) {
     },
     {
       name: 'Butch',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -359,6 +398,7 @@ export async function seed(knex) {
     },
     {
       name: 'Cactus Jack',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -368,6 +408,7 @@ export async function seed(knex) {
     },
     {
       name: 'Cameron Grimes',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -377,6 +418,7 @@ export async function seed(knex) {
     },
     {
       name: 'Candice LeRae',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -386,6 +428,7 @@ export async function seed(knex) {
     },
     {
       name: 'Carmella',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -395,6 +438,7 @@ export async function seed(knex) {
     },
     {
       name: 'Carmelo Hayes',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -404,6 +448,7 @@ export async function seed(knex) {
     },
     {
       name: 'Cedric Alexander',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'High Flyer',
@@ -413,6 +458,7 @@ export async function seed(knex) {
     },
     {
       name: 'Chad Gable',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -422,6 +468,7 @@ export async function seed(knex) {
     },
     {
       name: 'Channing "Stacks" Lorenzo',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -431,6 +478,7 @@ export async function seed(knex) {
     },
     {
       name: 'Charlotte Flair',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -440,6 +488,7 @@ export async function seed(knex) {
     },
     {
       name: 'Chelsea Green',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -449,6 +498,7 @@ export async function seed(knex) {
     },
     {
       name: 'Chyna',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -458,6 +508,7 @@ export async function seed(knex) {
     },
     {
       name: 'CM Punk',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -467,6 +518,7 @@ export async function seed(knex) {
     },
     {
       name: 'Cody Rhodes',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -476,6 +528,7 @@ export async function seed(knex) {
     },
     {
       name: 'Cora Jade',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -485,6 +538,7 @@ export async function seed(knex) {
     },
     {
       name: 'Cruz Del Toro',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -494,6 +548,7 @@ export async function seed(knex) {
     },
     {
       name: 'D-Von Dudley',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -503,6 +558,7 @@ export async function seed(knex) {
     },
     {
       name: 'Dakota Kai',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -512,6 +568,7 @@ export async function seed(knex) {
     },
     {
       name: 'Damien Priest',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -521,6 +578,7 @@ export async function seed(knex) {
     },
     {
       name: 'Damon Kemp',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -530,6 +588,7 @@ export async function seed(knex) {
     },
     {
       name: 'Darius Butler',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -539,6 +598,7 @@ export async function seed(knex) {
     },
     {
       name: 'Dexter Lumis',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -548,6 +608,7 @@ export async function seed(knex) {
     },
     {
       name: 'Diesel',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -557,6 +618,7 @@ export async function seed(knex) {
     },
     {
       name: 'Dijak',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -566,6 +628,7 @@ export async function seed(knex) {
     },
     {
       name: '"Dirty" Dominik Mysterio',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -575,6 +638,7 @@ export async function seed(knex) {
     },
     {
       name: 'Doink The Clown',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -584,6 +648,7 @@ export async function seed(knex) {
     },
     {
       name: 'Drew Gulak',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -593,6 +658,7 @@ export async function seed(knex) {
     },
     {
       name: 'Drew McIntyre',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -602,6 +668,7 @@ export async function seed(knex) {
     },
     {
       name: 'Dude Love',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -611,6 +678,7 @@ export async function seed(knex) {
     },
     {
       name: 'Duke Hudson',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -620,6 +688,7 @@ export async function seed(knex) {
     },
     {
       name: 'Dusty Rhodes',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -629,6 +698,7 @@ export async function seed(knex) {
     },
     {
       name: 'Eddie Guerrero',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -638,6 +708,7 @@ export async function seed(knex) {
     },
     {
       name: 'Elton Prince',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -647,6 +718,7 @@ export async function seed(knex) {
     },
     {
       name: 'Eric Bischoff',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -656,6 +728,7 @@ export async function seed(knex) {
     },
     {
       name: 'Erik',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -665,6 +738,7 @@ export async function seed(knex) {
     },
     {
       name: 'Eve Torres',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -674,6 +748,7 @@ export async function seed(knex) {
     },
     {
       name: 'Faarooq',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -683,6 +758,7 @@ export async function seed(knex) {
     },
     {
       name: 'Fallon Henley',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -692,6 +768,7 @@ export async function seed(knex) {
     },
     {
       name: 'The Fiend Bray Wyatt',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -701,6 +778,7 @@ export async function seed(knex) {
     },
     {
       name: 'Finn Balor',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -710,6 +788,7 @@ export async function seed(knex) {
     },
     {
       name: 'George "The Animal" Steele',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -719,6 +798,7 @@ export async function seed(knex) {
     },
     {
       name: 'Gigi Dolin',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -728,6 +808,7 @@ export async function seed(knex) {
     },
     {
       name: 'Giovanni Vinci',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -737,6 +818,7 @@ export async function seed(knex) {
     },
     {
       name: 'Grayson Waller',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -746,6 +828,7 @@ export async function seed(knex) {
     },
     {
       name: 'Gunther',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -755,6 +838,7 @@ export async function seed(knex) {
     },
     {
       name: 'Harley Race',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -764,6 +848,7 @@ export async function seed(knex) {
     },
     {
       name: 'Hollywood Hogan',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -773,6 +858,7 @@ export async function seed(knex) {
     },
     {
       name: 'Honky Tonk Man',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -782,6 +868,7 @@ export async function seed(knex) {
     },
     {
       name: 'Hulk Hogan',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -791,6 +878,7 @@ export async function seed(knex) {
     },
     {
       name: 'Humberto Carrillo',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'High Flyer',
@@ -800,6 +888,7 @@ export async function seed(knex) {
     },
     {
       name: 'The Hurricane',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -809,6 +898,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ilja Dragunov',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -818,6 +908,7 @@ export async function seed(knex) {
     },
     {
       name: 'Indi Hartwell',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -827,6 +918,7 @@ export async function seed(knex) {
     },
     {
       name: 'Isla Dawn',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -836,6 +928,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ivar',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -845,6 +938,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ivy Nile',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -854,6 +948,7 @@ export async function seed(knex) {
     },
     {
       name: 'Iyo Sky',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'High Flyer',
@@ -863,6 +958,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jacy Jayne',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -872,6 +968,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jake "The Snake" Roberts',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -881,6 +978,7 @@ export async function seed(knex) {
     },
     {
       name: 'JBL',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -890,6 +988,7 @@ export async function seed(knex) {
     },
     {
       name: 'JD McDonagh',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -899,6 +998,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jerry "The King" Lawler',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -908,6 +1008,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jey Uso',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -917,6 +1018,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jim "The Anvil" Neidhart',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -926,6 +1028,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jimmy Uso',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -935,6 +1038,7 @@ export async function seed(knex) {
     },
     {
       name: 'Jinder Mahal',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -944,6 +1048,7 @@ export async function seed(knex) {
     },
     {
       name: 'Joaquin Wilde',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -953,6 +1058,7 @@ export async function seed(knex) {
     },
     {
       name: 'Joe Coffey',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -962,6 +1068,7 @@ export async function seed(knex) {
     },
     {
       name: 'Joe Gacy',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -971,6 +1078,7 @@ export async function seed(knex) {
     },
     {
       name: 'John Cena',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -980,6 +1088,7 @@ export async function seed(knex) {
     },
     {
       name: 'Johnny Gargano',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -989,6 +1098,7 @@ export async function seed(knex) {
     },
     {
       name: 'Josh Briggs',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -998,6 +1108,7 @@ export async function seed(knex) {
     },
     {
       name: 'Julius Creed',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1007,6 +1118,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kane',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1016,6 +1128,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kane 08',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1025,6 +1138,7 @@ export async function seed(knex) {
     },
     {
       name: 'Karl Anderson',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1034,6 +1148,7 @@ export async function seed(knex) {
     },
     {
       name: 'Karrion Kross',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1043,6 +1158,7 @@ export async function seed(knex) {
     },
     {
       name: 'Katana Chance',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1052,6 +1168,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kayden Carter',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1061,6 +1178,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ken Shamrock',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1070,6 +1188,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kevin Nash',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1079,6 +1198,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kevin Owens',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1088,6 +1208,7 @@ export async function seed(knex) {
     },
     {
       name: 'King Booker',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1097,6 +1218,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kit Wilson',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1106,6 +1228,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kofi Kingston',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1115,6 +1238,7 @@ export async function seed(knex) {
     },
     {
       name: 'Kurt Angle',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1124,6 +1248,7 @@ export async function seed(knex) {
     },
     {
       name: 'LA Knight',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1133,6 +1258,7 @@ export async function seed(knex) {
     },
     {
       name: 'Lita',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1142,6 +1268,7 @@ export async function seed(knex) {
     },
     {
       name: 'Liv Morgan',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1151,6 +1278,7 @@ export async function seed(knex) {
     },
     {
       name: 'Logan Paul',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1160,6 +1288,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ludwig Kaiser',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1169,6 +1298,7 @@ export async function seed(knex) {
     },
     {
       name: 'Luke Gallows',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1178,6 +1308,7 @@ export async function seed(knex) {
     },
     {
       name: '"Macho Man" Randy Savage',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'High Flyer',
@@ -1187,6 +1318,7 @@ export async function seed(knex) {
     },
     {
       name: 'Mankind',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1196,6 +1328,7 @@ export async function seed(knex) {
     },
     {
       name: 'Mark Coffey',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1205,6 +1338,7 @@ export async function seed(knex) {
     },
     {
       name: 'Maryse',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1214,6 +1348,7 @@ export async function seed(knex) {
     },
     {
       name: 'Maryse',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1223,6 +1358,7 @@ export async function seed(knex) {
     },
     {
       name: 'Maxxine Dupri',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1232,6 +1368,7 @@ export async function seed(knex) {
     },
     {
       name: 'Michin',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1241,6 +1378,7 @@ export async function seed(knex) {
     },
     {
       name: 'Mighty Molly',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1250,6 +1388,7 @@ export async function seed(knex) {
     },
     {
       name: 'The Miz',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1259,6 +1398,7 @@ export async function seed(knex) {
     },
     {
       name: 'Molly Holly',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1268,6 +1408,7 @@ export async function seed(knex) {
     },
     {
       name: 'Montez Ford',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1277,6 +1418,7 @@ export async function seed(knex) {
     },
     {
       name: 'Mosh',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1286,6 +1428,7 @@ export async function seed(knex) {
     },
     {
       name: 'Muhammad Ali',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1295,6 +1438,7 @@ export async function seed(knex) {
     },
     {
       name: 'MVP',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1304,6 +1448,7 @@ export async function seed(knex) {
     },
     {
       name: 'Natalya',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1313,6 +1458,7 @@ export async function seed(knex) {
     },
     {
       name: 'Nathan Frazer',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1322,6 +1468,7 @@ export async function seed(knex) {
     },
     {
       name: 'Nikki Cross',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1331,6 +1478,7 @@ export async function seed(knex) {
     },
     {
       name: 'Nikkita Lyons',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1340,6 +1488,7 @@ export async function seed(knex) {
     },
     {
       name: 'Noam Dar',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1349,6 +1498,7 @@ export async function seed(knex) {
     },
     {
       name: 'Omos',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1358,6 +1508,7 @@ export async function seed(knex) {
     },
     {
       name: 'Otis',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1367,6 +1518,7 @@ export async function seed(knex) {
     },
     {
       name: 'Pat McAfee',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1376,6 +1528,7 @@ export async function seed(knex) {
     },
     {
       name: 'Piper Niven',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1385,6 +1538,7 @@ export async function seed(knex) {
     },
     {
       name: 'Post Malone',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1394,6 +1548,7 @@ export async function seed(knex) {
     },
     {
       name: 'R-Truth',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1403,6 +1558,7 @@ export async function seed(knex) {
     },
     {
       name: 'Randy Orton',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1412,6 +1568,7 @@ export async function seed(knex) {
     },
     {
       name: 'Raquel Rodriguez',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1421,6 +1578,7 @@ export async function seed(knex) {
     },
     {
       name: '"Ravishing" Rick Rude',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1430,6 +1588,7 @@ export async function seed(knex) {
     },
     {
       name: 'Razor Ramon',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1439,6 +1598,7 @@ export async function seed(knex) {
     },
     {
       name: 'Rey Mysterio',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1448,6 +1608,7 @@ export async function seed(knex) {
     },
     {
       name: 'Rey Mysterio Jr.',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1457,6 +1618,7 @@ export async function seed(knex) {
     },
     {
       name: 'Rhea Ripley',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1466,6 +1628,7 @@ export async function seed(knex) {
     },
     {
       name: 'Rick Steiner',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1475,6 +1638,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ricky "The Dragon" Steamboat',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1484,6 +1648,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ricochet',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1493,6 +1658,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ridge Holland',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1502,6 +1668,7 @@ export async function seed(knex) {
     },
     {
       name: 'Rikishi',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1511,6 +1678,7 @@ export async function seed(knex) {
     },
     {
       name: 'Rob Van Dam',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1520,6 +1688,7 @@ export async function seed(knex) {
     },
     {
       name: 'Robert Roode',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1529,6 +1698,7 @@ export async function seed(knex) {
     },
     {
       name: 'The Rock',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1538,6 +1708,7 @@ export async function seed(knex) {
     },
     {
       name: 'The Rock 01',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1547,6 +1718,7 @@ export async function seed(knex) {
     },
     {
       name: 'Roman Reigns',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1556,6 +1728,7 @@ export async function seed(knex) {
     },
     {
       name: 'Roman Reigns 15',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1565,6 +1738,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ronda Rousey',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1574,6 +1748,7 @@ export async function seed(knex) {
     },
     {
       name: '"Rowdy" Roddy Piper',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1583,6 +1758,7 @@ export async function seed(knex) {
     },
     {
       name: 'Roxanne Perez',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1592,6 +1768,7 @@ export async function seed(knex) {
     },
     {
       name: 'Sami Zayn',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1601,6 +1778,7 @@ export async function seed(knex) {
     },
     {
       name: 'The Sandman',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1610,6 +1788,7 @@ export async function seed(knex) {
     },
     {
       name: 'Sanga',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1619,6 +1798,7 @@ export async function seed(knex) {
     },
     {
       name: 'Santos Escobar',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1628,6 +1808,7 @@ export async function seed(knex) {
     },
     {
       name: 'Scarlett',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1637,6 +1818,7 @@ export async function seed(knex) {
     },
     {
       name: 'Scott Hall',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1646,6 +1828,7 @@ export async function seed(knex) {
     },
     {
       name: 'Scott Steiner',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1655,6 +1838,7 @@ export async function seed(knex) {
     },
     {
       name: 'Scrypts',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -1664,6 +1848,7 @@ export async function seed(knex) {
     },
     {
       name: 'Sensational Sherri',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1673,6 +1858,7 @@ export async function seed(knex) {
     },
     {
       name: 'Seth Rollins',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1682,6 +1868,7 @@ export async function seed(knex) {
     },
     {
       name: 'Seth Rollins 15',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1691,6 +1878,7 @@ export async function seed(knex) {
     },
     {
       name: 'Shane McMahon',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1700,6 +1888,7 @@ export async function seed(knex) {
     },
     {
       name: 'Shawn Michaels',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1709,6 +1898,7 @@ export async function seed(knex) {
     },
     {
       name: 'Shayna Baszler',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1718,6 +1908,7 @@ export async function seed(knex) {
     },
     {
       name: 'Sheamus',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1727,6 +1918,7 @@ export async function seed(knex) {
     },
     {
       name: 'Shinsuke Nakamura',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1736,6 +1928,7 @@ export async function seed(knex) {
     },
     {
       name: 'Shotzi',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1745,6 +1938,7 @@ export async function seed(knex) {
     },
     {
       name: 'Solo Sikoa',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1754,6 +1948,7 @@ export async function seed(knex) {
     },
     {
       name: 'Sonya Deville',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1763,6 +1958,7 @@ export async function seed(knex) {
     },
     {
       name: 'Stacy Keibler',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1772,6 +1968,7 @@ export async function seed(knex) {
     },
     {
       name: 'Stardust',
+      brand: '',
       gender: 'male',
       alignment: 'face',
       fightingStyle: 'Technician',
@@ -1781,6 +1978,7 @@ export async function seed(knex) {
     },
     {
       name: 'Stephanie McMahon',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1790,6 +1988,7 @@ export async function seed(knex) {
     },
     {
       name: '"Stone Cold" Steve Austin',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1799,6 +1998,7 @@ export async function seed(knex) {
     },
     {
       name: '"Superstar" Billy Graham',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1808,6 +2008,7 @@ export async function seed(knex) {
     },
     {
       name: 'Syxx',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1817,6 +2018,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tamina',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1826,6 +2028,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ted DiBiase',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1835,6 +2038,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tegan Nox',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1844,6 +2048,7 @@ export async function seed(knex) {
     },
     {
       name: 'Terry Funk',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1853,6 +2058,7 @@ export async function seed(knex) {
     },
     {
       name: 'Thea Hail',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1862,6 +2068,7 @@ export async function seed(knex) {
     },
     {
       name: 'Thrasher',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1871,6 +2078,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tiffany Stratton',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -1880,6 +2088,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tommaso Ciampa',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1889,6 +2098,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tony DAngelo',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1898,6 +2108,7 @@ export async function seed(knex) {
     },
     {
       name: 'Trick Williams',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1907,6 +2118,7 @@ export async function seed(knex) {
     },
     {
       name: 'Triple H',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1916,6 +2128,7 @@ export async function seed(knex) {
     },
     {
       name: 'Triple H 08',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1925,6 +2138,7 @@ export async function seed(knex) {
     },
     {
       name: 'Trish Stratus',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1934,6 +2148,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ty Schmit',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1943,6 +2158,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tyler Bate',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Technician',
@@ -1952,6 +2168,7 @@ export async function seed(knex) {
     },
     {
       name: 'Tyler Breeze',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -1961,6 +2178,7 @@ export async function seed(knex) {
     },
     {
       name: 'Ultimate Warrior',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1970,6 +2188,7 @@ export async function seed(knex) {
     },
     {
       name: 'Umaga',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -1979,6 +2198,7 @@ export async function seed(knex) {
     },
     {
       name: 'Uncle Howdy',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Powerhouse',
@@ -1988,6 +2208,7 @@ export async function seed(knex) {
     },
     {
       name: '"Undashing" Cody Rhodes',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -1997,6 +2218,7 @@ export async function seed(knex) {
     },
     {
       name: 'Undertaker',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -2006,6 +2228,7 @@ export async function seed(knex) {
     },
     {
       name: 'Vader',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -2015,6 +2238,7 @@ export async function seed(knex) {
     },
     {
       name: 'Valhalla',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -2024,6 +2248,7 @@ export async function seed(knex) {
     },
     {
       name: 'Veer Mahaan',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -2033,6 +2258,7 @@ export async function seed(knex) {
     },
     {
       name: 'Wade Barrett',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -2042,6 +2268,7 @@ export async function seed(knex) {
     },
     {
       name: 'Wendy Choo',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -2051,6 +2278,7 @@ export async function seed(knex) {
     },
     {
       name: 'Wes Lee',
+      brand: '',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -2060,6 +2288,7 @@ export async function seed(knex) {
     },
     {
       name: 'William Regal',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Technician',
@@ -2069,6 +2298,7 @@ export async function seed(knex) {
     },
     {
       name: 'Wolfgang',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -2078,6 +2308,7 @@ export async function seed(knex) {
     },
     {
       name: 'X-Pac',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -2087,6 +2318,7 @@ export async function seed(knex) {
     },
     {
       name: 'Xavier Woods',
+      brand: 'Raw',
       gender: 'male',
       alignment: 'Face',
       fightingStyle: 'Striker',
@@ -2096,6 +2328,7 @@ export async function seed(knex) {
     },
     {
       name: 'Xia Li',
+      brand: '',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
@@ -2105,6 +2338,7 @@ export async function seed(knex) {
     },
     {
       name: 'Yokozuna',
+      brand: '',
       gender: 'male',
       alignment: 'Heel',
       fightingStyle: 'Powerhouse',
@@ -2114,6 +2348,7 @@ export async function seed(knex) {
     },
     {
       name: 'Zelina Vega',
+      brand: '',
       gender: 'female',
       alignment: 'Face',
       fightingStyle: 'High Flyer',
@@ -2123,6 +2358,7 @@ export async function seed(knex) {
     },
     {
       name: 'Zoey Stark',
+      brand: 'Raw',
       gender: 'female',
       alignment: 'Heel',
       fightingStyle: 'Striker',
