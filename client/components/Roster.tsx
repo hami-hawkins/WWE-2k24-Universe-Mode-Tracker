@@ -19,11 +19,37 @@ function Roster() {
   return (
     <>
       <h1>Full Roster</h1>
-      {data.map((wrestlers) => (
-        <p key={wrestlers.id}>
-          {wrestlers.name} || {wrestlers.faction}
-        </p>
-      ))}
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Alignment</th>
+            <th>Fighting Style</th>
+            <th>Faction</th>
+            <th>DLC Required</th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((wrestler) => (
+            <tr key={wrestler.id}>
+              <td>{wrestler.name}</td>
+              <td>{wrestler.brand}</td>
+              <td>{wrestler.alignment}</td>
+              <td>{wrestler.fightingStyle}</td>
+              <td>{wrestler.faction}</td>
+              <td>
+                {wrestler.dlc === 1 || wrestler.dlc === true ? 'Yes' : ''}
+              </td>
+              <td>
+                <button>Raw</button>
+                <button>Smackdown</button>
+                <button>NXT</button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </>
   )
 }
