@@ -1,6 +1,6 @@
 import Roster from './Roster'
 
-function App() {
+function Homepage() {
   return (
     <>
       <header className="header">
@@ -15,4 +15,4 @@ function App() {
   )
 }
 
-export default App
+export default Homepage

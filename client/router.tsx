@@ -4,10 +4,10 @@ import {
   createRoutesFromElements,
   Route,
 } from 'react-router-dom'
-import App from './components/App'
+import Homepage from './components/Homepage'
 
 const router = createBrowserRouter(
-  createRoutesFromElements([<Route path="/" element={<App />} />])
+  createRoutesFromElements([<Route path="/" element={<Homepage />} />]),
 )
 
 export default router
