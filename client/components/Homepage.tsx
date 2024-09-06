@@ -1,5 +1,3 @@
-import Roster from './Roster'
-
 function Homepage() {
   return (
     <>
@@ -7,9 +5,7 @@ function Homepage() {
         <h1>WWE Universe Mode Tracker</h1>
       </header>
       <section className="main">
-        <Roster />
-        {/* <AddWrestler />
-        <DeleteWrestler /> */}
+        <p>This will be the Homepage</p>
       </section>
     </>
   )
