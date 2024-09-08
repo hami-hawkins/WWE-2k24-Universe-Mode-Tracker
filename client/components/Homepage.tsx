@@ -1,18 +1,14 @@
-import Roster from './Roster'
-
-function App() {
+function Homepage() {
   return (
     <>
       <header className="header">
         <h1>WWE Universe Mode Tracker</h1>
       </header>
       <section className="main">
-        <Roster />
-        {/* <AddWrestler />
-        <DeleteWrestler /> */}
+        <p>This will be the Homepage</p>
       </section>
     </>
   )
 }
 
-export default App
+export default Homepage
