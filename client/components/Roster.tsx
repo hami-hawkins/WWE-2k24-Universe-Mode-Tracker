@@ -15,7 +15,7 @@ function Roster() {
     console.error(error.message)
     return <p>Error</p>
   }
-  console.log('Roster: ', data)
+
   return (
     <>
       <h1>Full Roster</h1>
@@ -40,11 +40,6 @@ function Roster() {
               <td>{wrestler.faction}</td>
               <td>
                 {wrestler.dlc === 1 || wrestler.dlc === true ? 'Yes' : ''}
-              </td>
-              <td>
-                <button>Raw</button>
-                <button>Smackdown</button>
-                <button>NXT</button>
               </td>
             </tr>
           ))}
