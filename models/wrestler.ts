@@ -9,3 +9,8 @@ export interface Wrestler {
   dlc: boolean
   isLegend: boolean
 }
+
+export interface WrestlerTableProps {
+  wrestlers: Wrestler[]
+  title: string
+}

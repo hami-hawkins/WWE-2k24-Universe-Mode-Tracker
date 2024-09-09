@@ -5,6 +5,7 @@ import {
   draftToSmackdown,
   draftToNXT,
 } from '../apis/wrestlersApi'
+import { WrestlerTableProps } from '../../models/wrestler'
 
 function Draft() {
   const queryClient = useQueryClient()
@@ -49,7 +50,7 @@ function Draft() {
   const nxtWrestlers = data?.filter((wrestler) => wrestler.brand === 'NXT')
 
   // draft pool
-  const WrestlerTable = ({ wrestlers, title }) => (
+  const WrestlerTable = ({ wrestlers, title }: WrestlerTableProps) => (
     <>
       <h1>{title}</h1>
       <table>
@@ -71,11 +72,8 @@ function Draft() {
               <td>{wrestler.alignment}</td>
               <td>{wrestler.fightingStyle}</td>
               <td>{wrestler.faction}</td>
+              <td>{wrestler.dlc ? 'Yes' : ''}</td>
               <td>
-                {wrestler.dlc === 1 || wrestler.dlc === true ? 'Yes' : ''}
-              </td>
-              <td>
-                {/* Add functions here so buttons are functional */}
                 <button
                   onClick={() => draftRawMutation.mutate(wrestler.id)}
                   disabled={draftRawMutation.isPending}
