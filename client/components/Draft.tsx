@@ -40,9 +40,18 @@ function Draft() {
     return <p>Error</p>
   }
 
-  return (
+  //DRAFT TABLES
+  // filtered wrestlers by brand
+  const rawWrestlers = data?.filter((wrestler) => wrestler.brand === 'Raw')
+  const smackdownWrestlers = data?.filter(
+    (wrestler) => wrestler.brand === 'Smackdown',
+  )
+  const nxtWrestlers = data?.filter((wrestler) => wrestler.brand === 'NXT')
+
+  // draft pool
+  const WrestlerTable = ({ wrestlers, title }) => (
     <>
-      <h1>Draft your Wrestlers</h1>
+      <h1>{title}</h1>
       <table>
         <thead>
           <tr>
@@ -55,7 +64,7 @@ function Draft() {
           </tr>
         </thead>
         <tbody>
-          {data.map((wrestler) => (
+          {wrestlers?.map((wrestler) => (
             <tr key={wrestler.id}>
               <td>{wrestler.name}</td>
               <td>{wrestler.brand}</td>
@@ -90,6 +99,17 @@ function Draft() {
           ))}
         </tbody>
       </table>
+    </>
+  )
+  return (
+    <>
+      <h1>Draft your Wrestlers</h1>
+      {/* DraftPool */}
+      <WrestlerTable wrestlers={data} title="Draft Pool" />
+      {/* Drafted Wrestlers */}
+      <WrestlerTable wrestlers={rawWrestlers} title="RAW" />
+      <WrestlerTable wrestlers={smackdownWrestlers} title="Smackdown" />
+      <WrestlerTable wrestlers={nxtWrestlers} title="NXT" />
     </>
   )
 }

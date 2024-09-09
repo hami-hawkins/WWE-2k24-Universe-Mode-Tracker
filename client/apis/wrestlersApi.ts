@@ -26,27 +26,27 @@ export async function deleteWrestler(id: number) {
 //draft a wrestler to raw
 export async function draftToRaw(id: number) {
   return await request
-    .patch(`/api/v1/wrestlers/brand/${id}`)
+    .patch(`/api/v1/wrestlers/brand/raw/${id}`)
     .send({ brand: 'Raw' })
 }
 
 //draft a wrestler to smackdown
 export async function draftToSmackdown(id: number) {
   return await request
-    .patch(`/api/v1/wrestlers/brand/${id}`)
+    .patch(`/api/v1/wrestlers/brand/smackdown/${id}`)
     .send({ brand: 'Smackdown' })
 }
 
 //draft a wrestler to nxt
 export async function draftToNXT(id: number) {
   return await request
-    .patch(`/api/v1/wrestlers/brand/${id}`)
+    .patch(`/api/v1/wrestlers/brand/nxt/${id}`)
     .send({ brand: 'NXT' })
 }
 
 //undraft wrestler
 export async function undraftWrestler(id: number) {
   return await request
-    .patch(`/api/v1/wrestlers/brand/${id}`)
+    .patch(`/api/v1/wrestlers/brand/free-agent/${id}`)
     .send({ brand: '' })
 }

@@ -57,7 +57,7 @@ router.delete('/:id', async (req, res) => {
 
 //draft wrestler to raw
 //UPDATE '/api/v1/wrestlers/brand/:id
-router.patch('/brand/:id', async (req, res) => {
+router.patch('/brand/raw/:id', async (req, res) => {
   const id = Number(req.params.id)
   try {
     await db.draftToRaw(id)
@@ -70,7 +70,7 @@ router.patch('/brand/:id', async (req, res) => {
 
 //draft wrestler to smackdown
 //UPDATE '/api/v1/wrestlers/brand/:id
-router.patch('/brand/:id', async (req, res) => {
+router.patch('/brand/smackdown/:id', async (req, res) => {
   const id = Number(req.params.id)
   try {
     await db.draftToSmackdown(id)
@@ -83,7 +83,7 @@ router.patch('/brand/:id', async (req, res) => {
 
 //draft wrestler to NXT
 //UPDATE '/api/v1/wrestlers/brand/:id
-router.patch('/brand/:id', async (req, res) => {
+router.patch('/brand/nxt/:id', async (req, res) => {
   const id = Number(req.params.id)
   try {
     await db.draftToNXT(id)
@@ -96,7 +96,7 @@ router.patch('/brand/:id', async (req, res) => {
 
 //Undraft a wrestler
 //UPDATE '/api/v1/wrestlers/brand/:id
-router.patch('/brand/:id', async (req, res) => {
+router.patch('/brand/free-agent/:id', async (req, res) => {
   const id = Number(req.params.id)
   try {
     await db.undraft(id)
